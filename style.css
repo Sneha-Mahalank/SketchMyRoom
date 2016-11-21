@@ -1,0 +1,150 @@
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+	margin: 0 auto;
+	
+	padding: 0px;
+}
+.container{
+	width: 100%;
+	display: flex;
+	
+
+}
+
+.flex-item{
+	  background-color:#AE2525;
+	height:200px;
+	width: 100%;
+}
+
+.flex-left{
+	 background-color:#00FEFE;
+   height:300px;
+  
+}
+
+.flex-right {
+    background-color:#00FF00;
+	height:232px;
+	
+}
+
+.flex-left1{
+	background-color:#FEF100;
+	height:164px;
+	
+	
+}
+
+.flex-right1{
+	background-color:#002056;
+	height:232px;
+	
+	
+}
+
+.left{
+	width:100%;
+}
+
+.right{
+	width:100%;
+}
+
+
+.flex-top {
+    
+    width: 100%;
+    background-color: #b12727;
+}
+
+
+@media screen and (max-width: 768px){
+
+
+.container{
+	display: block;
+}
+
+.flex-item , .flex-left , .flex-left , .flex-right  , .flex-right1{
+	height: 120px;
+}
+
+.hide{
+			display: none;
+		}
+
+.view{
+			background-color:#AE2525;
+			height:120px;
+			display: block;
+		}
+
+		
+#cf {
+  position:relative;
+ background-color:#DAD016;
+  margin:0 auto;
+}
+
+#cf div {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf div.top:hover {
+  opacity:0;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+    opacity: 0.4;
+    }
+		
+		
+.fade-in {
+ 
+  background-color: #AE2525;
+ 
+  -webkit-transition: all 4s ease-out 0s;
+  -moz-transition: all 4s ease-out 0s;
+  transition: all 4s ease-out 0s;
+}
+
+.fade-in:hover {
+  -moz-opacity: 0.40;
+  opacity: 0.40;
+ 
+}
+
+.fade-out {
+    opacity: 0.2;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}​
+	
+
+	
+	
+}
+
+   
+
+
+
+
